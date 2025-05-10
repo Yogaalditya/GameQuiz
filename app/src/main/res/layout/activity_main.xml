@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Bagian Header: Skor dan Timer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/score_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="Skor: 0"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/level_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Level 1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:id="@+id/timer_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="end"
+            android:text="Waktu: 120 detik"
+            android:textSize="18sp" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/double_points_notif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="POINT 2x AKTIF!"
+        android:textColor="#FFD700"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:background="#80000000"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"/>
+
+
+    <!-- CardView untuk Soal dengan Tinggi Mutlak 70dp -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp"
+        app:cardBackgroundColor="#FFFFFF">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <TextView
+                android:id="@+id/question_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="Pertanyaan akan muncul di sini"
+                android:textSize="18sp"
+                android:gravity="start"
+                android:textIsSelectable="true"
+                android:textColor="#000000" />
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Tombol Detail Soal -->
+    <Button
+        android:id="@+id/detail_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Soal"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp" />
+
+    <!-- Bagian Opsi Jawaban -->
+    <LinearLayout
+        android:id="@+id/options_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/option_a"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="A"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:backgroundTint="#2196F3" />
+
+            <Button
+                android:id="@+id/option_b"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="B"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:backgroundTint="#4CAF50" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/option_c"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="C"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:backgroundTint="#FFEB3B" />
+
+            <Button
+                android:id="@+id/option_d"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="D"
+                android:textSize="16sp"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:backgroundTint="#F44336" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Tombol Submit -->
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <!-- Tombol Hint -->
+    <ImageButton
+        android:id="@+id/hint_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/hint"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:contentDescription="Tombol hint"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="20dp" />
+
+
+</LinearLayout>

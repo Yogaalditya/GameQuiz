@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">AplicationGame</string>
+    <string name="language">Bahasa</string>
+    <string name="font_size">Ukuran Font</string>
+    <string name="theme">Mode Gelap</string>
+    <string name="save">Simpan</string>
+    <string name="back">Kembali</string>
+
+    <string-array name="language_options">
+        <item>Indonesia</item>
+    </string-array>
+
+    <string-array name="font_size_options">
+        <item>Kecil</item>
+        <item>Sedang</item>
+        <item>Besar</item>
+    </string-array>
+
+    <string name="score_label">Skor: %1$d</string>
+    <string name="time_label">Waktu: %1$d detik</string>
+    <string name="submit">Submit</string>
+    <string name="detail">Detail Soal</string>
+    <string name="hint">Petunjuk</string>
+    <string name="warning_title">Peringatan</string>
+    <string name="select_answer_warning">Pilih jawaban terlebih dahulu!</string>
+    <string name="ok">OK</string>
+    <string name="correct_title">Benar!</string>
+    <string name="correct_message">Selamat! Anda mendapatkan %1$d poin.</string>
+    <string name="wrong_title">Salah!</string>
+    <string name="wrong_message">Jawaban benar: %1$s\nAlasan: %2$s</string>
+    <string name="next">Lanjut</string>
+    <string name="final_score">Skor Akhir: %1$d</string>
+    <string name="close">Tutup</string>
+    <string name="settings">Pengaturan</string>
+
+    <!-- Tambahkan string ini -->
+    <string name="time_up_message">Waktu habis! Anda tidak mendapatkan poin untuk level ini.</string>
+
+    <string name="question_1">Siapa yang membunuh Tuan Ardi di rumahnya pada malam hari?</string>
+    <string name="question_1_explanation">Pembantu ditemukan memiliki sidik jari pada pisau yang digunakan untuk membunuh Tuan Ardi.</string>
+    <string name="question_1_detail">Kejadian ini terjadi di rumah Tuan Ardi yang terpencil. Tidak ada saksi, hanya pisau dengan sidik jari ditemukan.</string>
+    <string name="question_1_hint_1">Hint 1: Periksa alat yang digunakan.</string>
+    <string name="question_1_hint_2">Hint 2: Siapa yang memiliki akses ke rumah?</string>
+    <string name="question_1_option_1">Istri</string>
+    <string name="question_1_option_2">Pembantu</string>
+    <string name="question_1_option_3">Anak</string>
+    <string name="question_1_option_4">Tetangga</string>
+
+    <string name="question_2">Pada malam 18 Mei 2025, Tuan Bima ditemukan tewas di perpustakaan rumah keluarganya yang terkunci dari dalam. Hanya ventilasi kecil di atas pintu yang terbuka sedikit. Di samping tubuhnya tergeletak pecahan cermin kecil dengan noda darah, sebatang lilin hitam yang setengah meleleh, serta secarik kertas bertinta biru pudar berisi tulisan terputus:\n“…meletakkan di rak bawah…”</string>
+    <string name="question_2_explanation">Jejak Kaki Kecil  Lumpur\nHanya Rina yang berkumis fisik mungil (sepatu ukuran kecil), dan ia sempat membawa pot tanaman hias dari luar hingga kakinya bercampur sisa tanah lembab.\nLilin Hitam dan Bayangan\nLilin diletakkan dekat ventilasi untuk menciptakan bayangan menirukan siluet orang lain, sehingga terdengar berteriak dan pintu “terkunci dari dalam” kelihatan alami.\nPulpen Tinta Biru\nPecahan cermin menggores pulpen Rina saat ia menulis catatan palsu. Dia lupa mengamankan pulpen, sehingga jatuh ke lantai saat beraksi.\nPetunjuk Kertas\n“Meletakkan di rak bawah” merujuk pada menyembunyikan kunci lemari berisi dokumen cerai—Rina berusaha menghilangkan bukti niat korban bercerai.\nMotif\nMengetahui surat cerai akan dibuat, Rina membunuh Tuan Bima untuk mempertahankan status perkawinan dan warisan.</string>
+    <string name="question_2_detail">Petunjuk\n1. Waktu  Alibi\nDodi: Mengantar mobil ke bengkel 19:00–20:30; tanda terima tanpa cap resmi.\nRina: Memasak di dapur 19:30–20:15; suara di CCTV koridor.\nSigit: Jalan di taman belakang 20:00–20:45; jejak basah di teras.\nWulan: Membaca di kamar 19:00–21:00; pintu berderit didengar satpam.\n2. Jejak di Lokasi\nCermin Pecah: Potongan halus dekat rak bawah; tangan korban meraih sesuatu.\nLilin Hitam: Asap ke ventilasi; bayangan gelap di dinding.\nJejak Basah: Tiga tapak kecil berlumpur dekat ventilasi, dua menjauh ke koridor.\n3. Tinta dan Alat Tulis\nPecahan cermin menggores pulpen tinta biru milik Rina, ditemukan di lacinya.\n4. Kertas Robek\nTulisan “…meletakkan di rak bawah…” sisa instruksi: “…letakkan obor…” atau “…tempatkan kunci…”\n5. Motif\nDodi: Dipecat minggu lalu; akses kunci mobil.\nRina: Tahu surat cerai.\nSigit: Butuh warisan tanah 2 hektar.\nWulan: Memalsukan tanda tangan ayah.</string>
+    <string name="question_2_hint_1">Hint 1: Perhatikan jejak tiga tapak kecil berlumpur: siapa yang sepatunya kemungkinan kecil dan berlumpur?</string>
+    <string name="question_2_hint_2">Hint 2: Lilin hitam dan pecahan cermin—apa kaitan dengan “bayangan” dan “ventilasi”?</string>
+    <string name="question_2_hint_3">Hint 3: Tinta pulpen biru di lokasi dan di laci Rina—apakah dia sengaja meninggalkan alatnya?</string>
+    <string name="question_2_hint_4">Hint 4: Instruksi “meletakkan di rak bawah”: apa yang ingin diambil atau disembunyikan pelaku di sana?</string>
+    <string name="question_2_option_1">Dodi, Supir Pribadi</string>
+    <string name="question_2_option_2">Rina, Istri Korban</string>
+    <string name="question_2_option_3">Sigit, Sahabat Lama</string>
+    <string name="question_2_option_4">Wulan, Adik Korban</string>
+
+    <string name="question_3">Siapa pelaku korupsi dana desa senilai 2 miliar?</string>
+    <string name="question_3_explanation">Kepala Desa memiliki rekening dengan transaksi mencurigakan yang sesuai dengan jumlah dana yang hilang.</string>
+    <string name="question_3_detail">Kasus ini melibatkan dana desa sebesar 2 miliar yang hilang dari anggaran. Investigasi awal menunjukkan transaksi mencurigakan.</string>
+    <string name="question_3_hint_1">Hint 1: Periksa transaksi keuangan.</string>
+    <string name="question_3_hint_2">Hint 2: Siapa yang memiliki otoritas atas dana?</string>
+    <string name="question_3_option_1">Sekretaris</string>
+    <string name="question_3_option_2">Kepala Desa</string>
+    <string name="question_3_option_3">Bendahara</string>
+    <string name="question_3_option_4">Warga</string>
+
+    <string name="question_4">Siapa yang mencuri perhiasan Nyonya Rina di pesta malam itu?</string>
+    <string name="question_4_explanation">Pelayan tertangkap kamera mengambil perhiasan dari kamar Nyonya Rina.</string>
+    <string name="question_4_detail">Kejadian ini terjadi di pesta malam di rumah Nyonya Rina. Kamera keamanan merekam aktivitas mencurigakan di kamar.</string>
+    <string name="question_4_hint_1">Hint 1: Periksa rekaman kamera di kamar.</string>
+    <string name="question_4_hint_2">Hint 2: Siapa yang memiliki akses ke kamar?</string>
+    <string name="question_4_option_1">Tamu Undangan</string>
+    <string name="question_4_option_2">Pelayan</string>
+    <string name="question_4_option_3">Koki</string>
+    <string name="question_4_option_4">Penjaga</string>
+
+    <string name="question_5">Siapa yang membakar gudang milik Pak Budi?</string>
+    <string name="question_5_explanation">Pesaing Bisnis memiliki motif karena gudang Pak Budi menyimpan stok yang mengancam bisnisnya.</string>
+    <string name="question_5_detail">Kebakaran terjadi di gudang Pak Budi. Investigasi menunjukkan motif kompetisi bisnis.</string>
+    <string name="question_5_hint_1">Hint 1: Periksa motif bisnis.</string>
+    <string name="question_5_hint_2">Hint 2: Siapa yang diuntungkan dari kebakaran?</string>
+    <string name="question_5_option_1">Karyawan</string>
+    <string name="question_5_option_2">Pesaing Bisnis</string>
+    <string name="question_5_option_3">Tetangga</string>
+    <string name="question_5_option_4">Anak</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
